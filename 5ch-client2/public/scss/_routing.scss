@@ -1,0 +1,47 @@
+/* Routine */
+ .routine__bg::before {
+     position: absolute;
+     content: "";
+     background-color: rgba(34, 54, 69, 0.90);
+     width: 100%;
+     height: 100%;
+     top: 0;
+     bottom: 0;
+     right: 0;
+     left: 0;
+}
+ .routine__table .table thead th, .routine__table .table tbody th, .routine__table .table tbody td {
+     vertical-align: bottom;
+     padding: 30px 20px;
+     text-align: center;
+     line-height: 1;
+     font-size: 18px;
+     color: #223645;
+     font-weight: 700;
+     background: #fff;
+     border: 2px solid;
+     font-family: 'Poppins', sans-serif;
+     letter-spacing: -0.03em;
+     min-width: 167px;
+}
+ .doctor--routine__wrapper h2 {
+     font-size: 18px;
+     font-weight: 600;
+     margin-bottom: 5px;
+}
+ .doctor--routine__wrapper span {
+     font-size: 14px;
+     font-weight: 500;
+     color: #223645;
+}
+ .routine__table .table tbody td {
+     padding: 20px 15px;
+     background-color: rgba(21, 40, 55, 0.50);
+}
+ .routine__table .table tbody td.active-doctor {
+     background: #8fb569;
+}
+ .routine__bg {
+     background-size: cover;
+     background-position: center center;
+}

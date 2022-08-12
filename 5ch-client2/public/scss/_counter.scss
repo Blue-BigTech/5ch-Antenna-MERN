@@ -1,0 +1,59 @@
+/* 12. Counter */
+ .single-couter h1 {
+     font-size: 80px;
+     color: #e12454;
+     margin-top: 20px;
+     font-weight: 200;
+}
+ .counter-box h1 {
+     font-weight: 600;
+     color: #fff;
+     font-size: 50px;
+     margin-top: 12px;
+}
+ .counter-box-white h1 {
+     color: #223645;
+}
+ .single-couter h3 {
+     font-size: 24px;
+     margin-top: 10px;
+     margin-bottom: 17px;
+}
+ .single-couter p {
+     margin-bottom: 0;
+     padding-right: 40px;
+}
+ .counter-text p {
+     width: 100%;
+     padding: 0 52px;
+     max-width: 370px;
+     margin: 0 auto;
+}
+ .counter-box-white h6 {
+     position: relative;
+     margin-bottom: 11px;
+}
+ .counter-box-white h6::after, .counter-box-white h6::before {
+     position: absolute;
+     content: "";
+     width: 30px;
+     height: 2px;
+     left: 0;
+     background: #e8ebff;
+     right: 0;
+     margin: auto;
+     bottom: 0;
+}
+ .counter-box-white h6::before {
+     background: #E12454;
+     z-index: 9;
+     width: 0px;
+     transition: .3s;
+     visibility: hidden;
+     opacity: 0;
+}
+ .counter-box.counter-box-white:hover h6::before {
+     width: 30px;
+     visibility: visible;
+     opacity: 1;
+}

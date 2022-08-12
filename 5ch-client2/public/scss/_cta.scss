@@ -1,0 +1,15 @@
+/* 10. CTA */
+.cta_bg{
+    // background: url(../img/slider/slider-bg-1.jpg);
+    background-repeat: no-repeat;
+}
+ .cta-area::before {
+     position: absolute;
+     content: "";
+     background-color: rgba(19,35,47,0.94);
+     left: 0;
+     right: 0;
+     top: 0;
+     width: 100%;
+     height: 100%;
+}

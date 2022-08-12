@@ -1,0 +1,98 @@
+/* 14. Testimonials */
+ .testi-quato-icon {
+     height: 80px;
+     width: 80px;
+     display: inline-block;
+     border-radius: 50%;
+     background-color: rgb(225, 36, 84);
+     box-shadow: 0px 16px 32px 0px rgba(225, 36, 84, 0.4);
+     line-height: 80px;
+     margin-bottom: 45px;
+     margin-top: 32px;
+     text-align: center;
+     transition: .4s;
+}
+ .testi-quato-icon img {
+     display: inline-block;
+}
+ .testi-quato-icon-green {
+     background-color: rgb(143, 181, 105);
+     box-shadow: 0px 16px 32px 0px rgba(143, 181, 105, 0.4);
+     transition: .4s;
+}
+ .testi-box-2:hover .testi-quato-icon-green {
+     background-color: rgb(225, 36, 84);
+     box-shadow: 0px 16px 32px 0px rgba(225, 36, 84, 0.4);
+}
+ .testi-content p {
+     font-size: 28px;
+     line-height: 48px;
+     padding: 0 65px;
+     margin-bottom: 120px;
+}
+ .testi-author-title {
+     font-size: 28px;
+}
+ .testi-author-desination {
+     font-weight: 500;
+     color: #8fb569;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+     display: block;
+     margin-bottom: 25px;
+}
+ .testi-content span {
+     height: 70px;
+     width: 2px;
+     background: #e12454;
+     position: absolute;
+     bottom: -91px;
+     left: 0;
+     right: 0;
+     margin: auto;
+}
+ .testi-bg-icon {
+     position: absolute;
+     top: 0;
+     right: 0;
+     left: 0;
+     z-index: -9;
+}
+ .test-author-icon {
+     display: inline-block;
+     border-radius: 50%;
+     background-color: rgb(231, 231, 231);
+     box-shadow: 0px 8px 16px 0px rgba(71, 71, 71, 0.2);
+}
+ .testi-box {
+     margin-bottom: 212px;
+}
+ .testi-rating-list ul li {
+     display: inline-block;
+}
+ .testi-content-2 h3 {
+     font-size: 24px;
+     line-height: 1.4;
+     margin-bottom: 20px;
+}
+ .testi-content-2 p {
+     line-height: 26px;
+     padding-right: 45px;
+}
+ .testi-author-icon-2 {
+     margin-right: 30px;
+}
+ .testi-author-desination-2 h4 {
+     font-size: 20px;
+     margin-bottom: 14px;
+}
+ .testi-rating-list ul li i {
+     color: #ffae00;
+}
+.home_two_testimonial_wrapper{
+    padding: 0 15px;
+}
+.h4_testimonials{
+    // background: url(../img/home4/bg/testimonials-bg.jpg);
+    background-repeat: no-repeat;
+}

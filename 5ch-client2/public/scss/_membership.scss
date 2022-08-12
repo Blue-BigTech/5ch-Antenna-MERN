@@ -1,0 +1,95 @@
+/* 17. Membership */
+ .membership-box {
+     padding-left: 90px;
+     padding-right: 90px;
+     z-index: 99999;
+     position: relative;
+}
+ .single-membership-box {
+     padding: 50px;
+     border: 2px solid #dfe0ff;
+     padding-bottom: 28px;
+}
+ .membership-line-shape {
+     display: inline-block;
+     margin-bottom: 22px;
+     margin-top: 10px;
+}
+ .single-membership-box h3 {
+     font-size: 30px;
+}
+ .membership-bg::before {
+     position: absolute;
+     content: "";
+     background: rgba(0,0,0,.40);
+     width: 100%;
+     height: 100%;
+     top: 0;
+     right: 0;
+     left: 0;
+     bottom: 0;
+}
+ .review-box {
+     padding: 40px;
+     background-color: rgb(255, 255, 255);
+     box-shadow: 0px 16px 32px 0px rgba(221, 217, 255, 0.2);
+}
+ .members-rating ul li {
+     display: inline-block;
+     color: #ffc600;
+     margin-bottom: 10px;
+}
+ .author-desination-2 h4 {
+     font-size: 18px;
+     margin-bottom: 7px;
+}
+ .author-desination-2 h6 {
+     color: #e12454;
+     text-transform: capitalize;
+     letter-spacing: 0;
+     margin: 0;
+}
+ .membership-review {
+     padding: 90px;
+}
+ .membership-review .author-ava {
+     margin-right: 15px;
+}
+ .member-ship-map::before {
+     position: absolute;
+     content: "";
+    //  background-image: url(../img/membership/map.png);
+     width: 100%;
+     min-height: 100%;
+     top: 0;
+     left: 0;
+}
+ .owl-carousel .owl-item .single-brand img {
+     width: inherit;
+     display: inline-block;
+}
+ .single-brand {
+     text-align: center;
+}
+ .brand-area::before {
+     position: absolute;
+     content: "";
+     background: rgba(32,47,59,0.94);
+     left: 0;
+     right: 0;
+     width: 100%;
+     top: 0;
+     height: 100%;
+}
+.membership-bg {
+    // background: url(../img/membership/membership-bg.jpg);
+    background-repeat: no-repeat;
+}
+.membership-review .item{
+    margin-right: 30px;
+}
+@media (max-width:767px){
+    .membership-review .item{
+      margin-right: 0px;
+    }
+}

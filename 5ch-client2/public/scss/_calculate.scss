@@ -1,0 +1,76 @@
+/* calculate */
+ .calculate-area::before {
+     position: absolute;
+     content: "";
+     width: 100%;
+     height: 100%;
+     background: #223645;
+     opacity: 0.90;
+     top: 0;
+     left: 0;
+     right: 0;
+}
+ .calculate-section .section-text p {
+     font-size: 30px;
+     color: #b4c8d7;
+     line-height: 42px;
+     padding-right: 35px;
+     max-width: 680px;
+}
+ .calculate-content {
+     padding: 60px;
+     background: #fff;
+     padding-bottom: 0;
+}
+ .calculate-box .nice-select {
+     width: 100%;
+     height: 70px;
+     padding-top: 14px;
+     border-radius: 0;
+     border: 2px solid #eee7ff;
+     padding-left: 38px;
+     margin-bottom: 20px;
+}
+ .calculate-box .nice-select::after {
+     margin-right: 18px;
+     margin-top: -1px;
+}
+ .calculate-box .nice-select .list {
+     width: 100%;
+     border-radius: 0;
+}
+ .calculate-form input {
+     height: 70px;
+     padding-left: 38px;
+     width: 100%;
+     border: 2px solid #eee7ff;
+     position: relative;
+}
+ .calculate-form input::placeholder {
+     color: #647589;
+}
+ .calculate-box a {
+     width: 100%;
+}
+ .calculate-form {
+     position: relative;
+}
+ .calculate-form i {
+     position: absolute;
+     top: 28px;
+     right: 30px;
+}
+
+.calculate-area{
+    // background: url(../img/calculate/calculate-bg.png);
+    background-repeat: no-repeat;
+}
+.calculate_wrapper{
+    position: relative;
+    z-index: 99;
+}
+
+.form-select:focus {
+    border-color: #eee7ff;
+    box-shadow: none;
+}

@@ -1,0 +1,98 @@
+/* 24. Login */
+ .basic-login {
+     padding: 90px;
+     border: 2px solid #eaedff;
+}
+ @media only screen and (min-width: 992px) and (max-width: 1200px) {
+     .basic-login {
+         padding: 50px;
+    }
+}
+ @media only screen and (min-width: 768px) and (max-width: 991px) {
+     .basic-login {
+         padding: 40px;
+    }
+}
+ @media (max-width: 767px) {
+     .basic-login {
+         padding: 30px;
+    }
+}
+ .basic-login h3 {
+     font-size: 30px;
+}
+ .basic-login input {
+     width: 100%;
+     height: 60px;
+     border: 2px solid #eaedff;
+     color: #6f7172;
+     padding: 0 20px;
+     margin-bottom: 20px;
+}
+ .basic-login label {
+     color: #222;
+     display: block;
+}
+ .basic-login label span {
+     color: #fe4536;
+}
+ .login-action input {
+     width: inherit;
+     height: auto;
+}
+ .login-action label {
+     display: inline-block;
+     margin-left: 5px;
+}
+ .or-divide {
+     border-top: 2px solid #eaedff;
+     margin: 40px 0;
+     text-align: center;
+     position: relative;
+}
+ .or-divide span,.or-login span {
+     position: absolute;
+     left: 0;
+     right: 0;
+     top: -9px;
+     background: #ffffff;
+     display: inline-block;
+     width: 40px;
+     margin: auto;
+     line-height: 1;
+     font-weight: 500;
+}
+.or-login span{
+    width: 120px;
+}
+ @media (max-width: 767px) {
+     .forgot-login {
+         float: none;
+    }
+}
+ .forgot-login span {
+     color: #fe4536;
+     cursor: pointer;
+}
+ .forgot-login span:hover {
+     color: #84b77c;
+}
+ @media (max-width: 767px) {
+     .log-rem {
+         float: none;
+         margin-bottom: 10px;
+         display: block;
+    }
+}
+.login_btn{
+    border: none;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.login_btn img{
+    width: 50px;
+    height: 50px;
+}

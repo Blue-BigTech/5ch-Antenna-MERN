@@ -1,0 +1,81 @@
+/* 18. FAQ */
+ .faq-left-box {
+     margin-bottom: 235px;
+}
+ .faq-pos-front {
+     position: absolute;
+     bottom: -235px;
+     left: 57px;
+}
+ .faq-back-shape {
+     position: absolute;
+     bottom: -162px;
+     left: -130px;
+     z-index: -9;
+}
+ .faq-right-box .card {
+     position: relative;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-orient: vertical;
+     -webkit-box-direction: normal;
+     -ms-flex-direction: column;
+     flex-direction: column;
+     min-width: 0;
+     word-wrap: break-word;
+     background-color: #fff;
+     background-clip: border-box;
+     border: 0;
+     border-radius: 0;
+     background: #F8F7FF;
+     margin-bottom: 20px;
+}
+ .faq-right-box .card-header {
+     padding: 0;
+     border-bottom: 0;
+     background: none;
+     border-radius: 0;
+}
+ .faq-right-box .btn-link {
+     font-weight: 400;
+     color: #0f1328;
+     display: block;
+     font-size: 16px;
+     padding: 21px 30px;
+     border: 2px solid #e12454;
+     text-decoration: none;
+     line-height: 28px;
+     background: #fff;
+     border-bottom: 0px solid transparent;
+}
+ .faq-right-box .btn-link::before {
+     content: "-";
+     line-height: 30px;
+     position: absolute;
+     right: 43px;
+     top: 24px;
+     font-size: 24px;
+     font-size: 20px;
+}
+ .faq-right-box .btn-link.collapsed::before {
+     content: "+";
+}
+ .faq-right-box .card-body {
+     -webkit-box-flex: 1;
+     -ms-flex: 1 1 auto;
+     flex: 1 1 auto;
+     padding: 0px 30px;
+     padding-top: 0;
+     padding-bottom: 22px;
+     border: 2px solid #e12454;
+     background: #fff;
+     border-top: 0;
+}
+ .faq-right-box .card-body p {
+     margin: 0;
+     font-size: 14px;
+}
+ .faq-right-box .btn-link.collapsed {
+     border: 2px solid #e7e6ff;
+}

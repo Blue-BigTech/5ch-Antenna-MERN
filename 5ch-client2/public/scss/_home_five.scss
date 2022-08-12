@@ -1,0 +1,87 @@
+/* Home Page 5 */
+ .h5services-wrapper {
+     padding: 60px 55px;
+}
+ .h5services-content {
+     position: relative;
+}
+ .h5services-icon {
+     display: inline-block;
+     height: 80px;
+     width: 80px;
+     text-align: center;
+     line-height: 80px;
+     background: #fff;
+     border-radius: 50%;
+     margin-bottom: 35px;
+}
+ .h5services-title {
+     font-size: 22px;
+     margin-bottom: 14px;
+}
+ .h5services-content>p {
+     color: #c0d0dc;
+     margin-bottom: 30px;
+}
+ .h5services-content > a > span.link {
+     letter-spacing: 0.1em;
+     text-decoration: underline;
+}
+ .h5services-content>a>span.plus {
+     font-size: 20px;
+     line-height: 1;
+     margin-right: 6px;
+     font-family: 'Poppins', sans-serif;
+     vertical-align: middle;
+}
+ .h5services-content>a:hover {
+     color: #e12454;
+}
+ .h5services-events>li {
+     position: relative;
+     margin-bottom: 10px;
+}
+ .h5services-events>li>span {
+     position: absolute;
+     left: 122px;
+     top: 50%;
+     transform: translateY(-50%);
+}
+ .h5services-events {
+     padding-top: 10px;
+}
+ .h5sclose-days>li {
+     font-size: 18px;
+}
+ .h5services-wrapper {
+     padding: 60px 55px;
+     height: 100%;
+     position: relative;
+}
+ .h5sicon-bg {
+     position: absolute;
+     top: 50%;
+     transform: translateY(-50%);
+     left: 0;
+     right: 0;
+     text-align: center;
+}
+ .h6services-content {
+     position: relative;
+}
+ .h5services-bottom>span>i {
+     display: inline-block;
+     vertical-align: middle;
+     margin-right: 13px;
+}
+ .h5services-bottom>span {
+     display: inline-block;
+}
+ .h5services-bottom {
+     padding-top: 30px;
+     border-top: 1px solid #e6e6e6;
+}
+ .h6services-content {
+     padding: 40px;
+     position: relative;
+}

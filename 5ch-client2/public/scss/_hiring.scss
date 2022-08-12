@@ -1,0 +1,60 @@
+/* hiring */
+ .hire-text {
+     padding: 55px;
+}
+ .hire-text-2 {
+     padding-left: 244px;
+     padding-right: 137px;
+     padding-top: 137px;
+     padding-bottom: 151px;
+}
+ .hire-text h1 {
+     font-size: 54px;
+     margin-bottom: 38px;
+}
+ .hire-text-2 h1 {
+     margin-bottom: 22px;
+}
+ .hire-text p {
+     line-height: 26px;
+     margin-bottom: 25px;
+}
+ .hire-bg {
+     background-color: rgb(255, 255, 255);
+     box-shadow: 0px 8px 16px 0px rgba(197, 191, 255, 0.2);
+}
+ .hire-bg-2 {
+     box-shadow: 5px -6px 16px -2px rgba(197, 191, 255, 0.2);
+}
+ .hiring-top {
+     position: relative;
+}
+ .hire-left-img {
+     position: absolute;
+     left: 0;
+     width: 50%;
+     height: 100%;
+     top: 0;
+     background-repeat: no-repeat;
+}
+ .hire-right-img {
+     position: absolute;
+     right: 0;
+     width: 50%;
+     height: 100%;
+     bottom: 0;
+     background-repeat: no-repeat;
+}
+
+.hiring-top .hire-left-img{
+    // background: url(../img/hire/hire3.jpg);
+    background-repeat: no-repeat;
+}
+.hiring-bottom .hire-right-img{
+    // background: url(../img/hire/hire4.jpg);
+    background-repeat: no-repeat;
+}
+.h4_hiring_wrapper .hire-right-img{
+    // background: url(../img/home4/hire/hire__thumb.jpg);
+    background-repeat: no-repeat;
+}

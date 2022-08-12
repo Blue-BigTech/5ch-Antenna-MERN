@@ -1,0 +1,153 @@
+/* 13. Appoinment */
+ .appoinment-section {
+     background-size: cover;
+     background-position: center top;
+}
+ .appoinment-content span {
+     font-size: 18px;
+     font-weight: 500;
+     color: #e12454;
+}
+ .appoinment-box.white {
+     background-color: #fff;
+}
+ .appoinment-content {
+     padding-top: 55px;
+     padding-left: 55px;
+     padding-right: 55px;
+}
+ .appoinment-content h1 {
+     font-size: 50px;
+     margin-top: 35px;
+     margin-bottom: 30px;
+}
+ .appoinment-box .primary_btn {
+     width: 100%;
+}
+ .professinals-list li {
+     line-height: 28px;
+     color: #697a8d;
+     margin-bottom: 20px;
+}
+ .professinals-list li i {
+     width: 30px;
+     height: 30px;
+     line-height: 26px;
+     text-align: center;
+     border-radius: 50%;
+     color: #8fb569;
+     margin-right: 20px;
+     float: left;
+     border: 2px solid #8fb569;
+     font-size: 12px;
+     transition: .4s;
+}
+ .professinals-list li:hover i {
+     background: #8fb569;
+     color: #fff;
+}
+/* 16. Appoinment */
+ .appoinment-box-2 {
+     background-color: rgb(255, 255, 255);
+     box-shadow: 0px 16px 32px 0px rgba(223, 217, 255, 0.4);
+     margin-top: -241px;
+}
+ .appoinment-box-content {
+     padding: 70px 38px 40px 70px;
+}
+ .appointment-form-3 textarea {
+     width: 100%;
+     resize: none;
+     border: 2px solid #d3e2f0;
+     padding-top: 28px;
+     padding-left: 40px;
+     color: #647589;
+     height: 120px;
+}
+ .appointment-area-3 .calculate-box .nice-select {
+     border: 2px solid #d3e2f0;
+}
+ .appointment-area-3 .calculate-form input {
+     border: 2px solid #d3e2f0;
+}
+ .appointment-form-2 input {
+     width: 100%;
+}
+ .appointment-form-2 input {
+     width: 100%;
+     border: 0;
+     padding: 0;
+     padding-top: 5px;
+}
+ .appointment-form-2 input::placeholder {
+     font-size: 24px;
+     color: #223645;
+     font-weight: 600;
+     font-family: poppins;
+}
+ .appoint-ment-icon {
+     margin-right: 40px;
+}
+ .appointment-form-2 label {
+     font-size: 12px;
+     text-transform: uppercase;
+     color: #aab6bf;
+     font-weight: 500;
+     margin-bottom: 14px;
+}
+ .appoinment-form-box {
+     padding-bottom: 27px;
+     border-bottom: 1px solid #eae5ff;
+}
+ .appoinment-form-box-option {
+     padding-bottom: 8px;
+}
+ .nice-select.postform::after {
+     border-bottom: 3px solid #223645;
+     border-right: 3px solid #223645;
+     content: '';
+     display: block;
+     height: 8px;
+     margin-top: -23px;
+     pointer-events: none;
+     position: absolute;
+     right: 5px;
+     top: 50%;
+     -webkit-transform-origin: 66% 66%;
+     -ms-transform-origin: 66% 66%;
+     transform-origin: 66% 66%;
+     -webkit-transform: rotate(45deg);
+     -ms-transform: rotate(45deg);
+     transform: rotate(45deg);
+     -webkit-transition: all 0.15s ease-in-out;
+     transition: all 0.15s ease-in-out;
+     width: 8px;
+}
+.appointment_page_bg{
+    // background: url(../img/appoinment/appointment-bg.jpg);
+    background-repeat: no-repeat;
+}
+.calculate-content .select_style {
+    border: 2px solid #d3e2f0;
+}
+
+
+.appoinment-form-box form select {
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    display: block;
+    cursor: pointer;
+    padding-right: 10px;
+    & option{
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 15px 0;
+    }
+}
+.h4appoinment-thumb{
+    // background: url(../img/home4/appoinment/appoinment__thumb.jpg);
+    background-repeat: no-repeat;
+}

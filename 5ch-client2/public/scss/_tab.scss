@@ -1,0 +1,68 @@
+/* Tab */
+ .h5medical-tab-menu {
+     margin-top: -50px;
+}
+ .h5medical-tab-menu>nav>.nav a {
+     line-height: 1;
+     padding: 30px 40px;
+     border: 0px solid transparent;
+     border-radius: 0;
+     background: #e8ebec;
+     font-size: 24px;
+     color: #223645;
+     font-weight: 600;
+     width: 33.33%;
+     text-align: center;
+     margin-bottom: 60px;
+     transition: .4s;
+     font-family: "Poppins", sans-serif;
+}
+ .h5medical-tab-menu>nav>.nav a.active {
+     background: #e12454;
+     color: #fff;
+}
+ .h5medical-tab-menu .nav-tabs {
+     border-bottom: 0px;
+}
+ .h5medical-tab-menu>nav>.nav a i {
+     margin-right: 20px;
+     display: inline-block;
+}
+ .h5medical-content>h4 {
+     font-size: 24px;
+     line-height: 1.4;
+     position: relative;
+     padding-bottom: 27px;
+     margin-bottom: 35px;
+     padding-right: 47px;
+}
+ .h5medical-content>h4::before {
+     position: absolute;
+     content: "";
+     width: 70px;
+     height: 5px;
+     background: #e12454;
+     bottom: 0;
+}
+ .h5medical-content>p {
+     color: #647589;
+     margin-bottom: 25px;
+}
+ .h5medical-content>ul>li {
+     color: #647589;
+     font-weight: 500;
+     display: block;
+     margin-bottom: 13px;
+}
+ .h5medical-content>ul>li>i {
+     margin-right: 15px;
+}
+ .h5medical-content {
+     padding-left: 30px;
+     padding-right: 67px;
+}
+ .medical-tab-border {
+     padding-bottom: 100px;
+     border-bottom: 2px solid #f1f1f1;
+}
+/* Tab end */

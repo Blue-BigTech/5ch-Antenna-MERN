@@ -1,0 +1,314 @@
+/* 6. Services */
+ .service-thumb {
+     margin-bottom: 45px;
+}
+ .service-box-3 .service-content-box {
+     padding: 0 15px;
+     margin-top: -30px;
+     position: relative;
+}
+ .service-box-3 .service-content {
+     padding: 40px;
+     background: #fff;
+     padding-bottom: 20px;
+     transition: .4s;
+}
+ .service-box-3:hover .service-content {
+     background-color: rgb(255, 255, 255);
+     box-shadow: 0px 16px 32px 0px rgba(181, 179, 255, 0.2);
+}
+ .service-box-3 .service-thumb {
+     margin-bottom: 0;
+}
+ .service-box-2 .service-thumb {
+     margin-bottom: 37px;
+}
+ .service-content h3 {
+     margin-bottom: 22px;
+}
+ .service-content-2 h3 {
+     font-size: 40px;
+}
+ .service-box.service-box-2 .service-content-2 h3 a:hover {
+     color: #E12454;
+}
+ .service-content-2 h3 a {
+     padding-bottom: 23px;
+     display: block;
+     position: relative;
+}
+ .service-content-2 h3 a::after, .service-content-2 h3 a::before {
+     position: absolute;
+     content: "";
+     height: 2px;
+     width: 50px;
+     left: 0;
+     background: #e2e0ff;
+     bottom: 0;
+     transition: .4s;
+}
+ .service-content-2 h3 a::before {
+     background: #E12454;
+     z-index: 9;
+     width: 0;
+     width: 0px;
+     visibility: hidden;
+     opacity: 0;
+}
+ .service-content-2 h3 a:hover::before {
+     transition: .6s;
+     width: 50px;
+     visibility: visible;
+     opacity: 1;
+}
+ .service-content.service-content-2 p {
+     padding-right: 30px;
+     max-width: 400px;
+     margin: 0 0 15px;
+}
+ .service-box {
+     padding: 53px;
+     background: #fff;
+     transition: .4s;
+}
+ .service-box-2 {
+     padding: 80px;
+     padding-bottom: 72px;
+}
+ .service-box.service-box-border {
+     border: 2px solid #f4f4f4;
+}
+ .service-link {
+     color: #647589;
+     font-weight: 500;
+     margin-top: 5px;
+     display: inline-block;
+}
+ .service-box-3 .service-link {
+     display: block;
+     background: #e8f1f7;
+     margin: 0;
+     padding: 16px;
+     transition: .4s;
+}
+ .service-box-3 a.service-link:hover {
+     background: #e12454;
+     color: #fff;
+}
+ .service-content-2 a.service-link {
+     color: #9ca8b6;
+}
+ .service-box-2 .service-content-2 a.service-link:hover {
+     color: #e12454;
+}
+ .service-content-2 a.service-link i {
+     margin-right: 5px;
+}
+ .service-box .service-content h3 a:hover {
+     color: #8fb569;
+}
+ .service-box .service-link:hover {
+     color: #8fb569;
+}
+ .service-box:hover {
+     background-color: rgb(255, 255, 255);
+     box-shadow: 0px 16px 32px 0px rgba(196, 203, 255, 0.3);
+}
+ .service-box.service-box-border:hover {
+     border: 2px solid transparent;
+}
+ .service-big-number {
+     position: absolute;
+     top: 0;
+     right: 19px;
+     font-size: 200px;
+     color: #f7f7ff;
+}
+ .service-details-text p {
+     line-height: 26px;
+     padding-right: 16px;
+}
+ .service-details-thumb img {
+     width: 100%;
+}
+ .ser-fea-box {
+     margin-right: 70px;
+}
+ .ser-fea-icon {
+     margin-right: 30px;
+}
+ .ser-fea-list h3 {
+     font-size: 16px;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+     margin-bottom: 23px;
+}
+ .ser-fea-list ul li {
+     margin-bottom: 12px;
+}
+ .ser-fea-list ul li i {
+     color: #8fb569;
+     margin-right: 5px;
+}
+ .download-area a img {
+     float: left;
+     margin-right: 20px;
+}
+ .download-area a span {
+     font-weight: 500;
+     color: #223645;
+     margin-top: 12px;
+     display: inline-block;
+     transition: .4s;
+}
+ .download-area a:hover span {
+     color: #e12454;
+}
+ .download-area a span.download-size {
+     color: #647589;
+     font-weight: 400;
+     float: right;
+}
+ .download-box {
+     display: inline-block;
+     padding: 18px 48px;
+     width: 100%;
+     border: 2px solid #e0e9ff;
+}
+ .testi-box .testi-service-content p {
+     padding: 0 10px;
+}
+/* service-sidebar */
+ .service-map{
+     min-height: 400px;
+}
+ .more-service-icon {
+     width: 50px;
+}
+ .more-service-title {
+     font-size: 16px;
+     font-weight: 500;
+     color: #223645;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+     margin-left: 20px;
+     transition: .4s;
+}
+ .doctor-details-title {
+     font-size: 24px;
+     letter-spacing: 0;
+     text-transform: capitalize;
+}
+ .more-service-title span {
+     display: block;
+     color: #647589;
+     font-weight: 400;
+     letter-spacing: 0;
+     font-size: 14px;
+     text-transform: capitalize;
+     margin-top: 2px;
+}
+ .more-service-list ul li a:hover .more-service-title {
+     color: #e12454;
+}
+ .more-service-list ul li a {
+     display: flex;
+     align-items: center;
+     padding-bottom: 20px;
+     border-bottom: 2px solid #f2edff;
+     margin-bottom: 20px;
+}
+ .more-service-list ul li:last-child a {
+     margin-bottom: 0;
+     border-bottom: 0;
+     padding-bottom: 0;
+}
+/* service-contact */
+ .contact-input input {
+     width: 100%;
+     height: 60px;
+     padding: 0;
+     padding-left: 40px;
+     border: 2px solid #f0f8ff;
+     color: #647589;
+     font-weight: 400;
+}
+ .contact-input input::placeholder {
+     color: #647589;
+}
+ .contact-icon {
+     position: relative;
+}
+ .contact-icon::before {
+     position: absolute;
+     content: "";
+     font-family: "Font Awesome 5 Free";
+     display: inline-block;
+     font-size: 14px;
+     color: #8fb569;
+     top: 20px;
+     left: 30px;
+     z-index: 99;
+}
+
+ .service-contact-form .nice-select {
+     width: 100%;
+     height: 60px;
+     padding-top: 9px;
+     padding-left: 60px;
+     padding-bottom: 9px;
+     border: 2px solid #f0f8ff;
+     border-radius: 0;
+}
+ .service-contact-form .nice-select .current {
+     font-weight: 400;
+     color: #647589;
+     font-size: 14px;
+}
+ .service-contact-form .nice-select ul.list {
+     width: 100%;
+     border-radius: 0;
+     border: 2px solid #f0f8ff;
+}
+
+ .ser-form-btn {
+     margin-bottom: -82px;
+}
+.service-content p {
+    max-width: 260px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.home_ser_title h1{
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 18px;
+}
+.select_style{
+    height: 70px;
+    padding-left: 38px;
+    margin-bottom: 15px;
+    border: 2px solid #eee7ff;
+    font-size: 14px;
+    color: #647589 ;
+}
+.contact-input .select_style{
+    padding-left: 40px;
+}
+.h4_services_slider button::before{
+    display: none;
+}
+.h5_services_slider button::before{
+    display: none;
+}
+.h4service-item{
+    padding: 0 15px;
+}
+.h4service-item .service-content p{
+    max-width: 250px;
+    margin: 0 0 15px;
+}
+.h5_services h1{
+    max-width: 600px;
+    margin: 0 auto 18px;
+}

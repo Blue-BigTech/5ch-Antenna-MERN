@@ -1,0 +1,35 @@
+/* news-letter */
+ .news-letter-title h1 {
+     font-size: 50px;
+}
+ .news-letter-box {
+     padding: 78px 50px 80px 55px;
+     background: #fff;
+}
+ .subscribe-form {
+     position: relative;
+     z-index: 99;
+}
+ .subscribe-form form {
+     position: relative;
+}
+ .subscribe-form form input {
+     width: 100%;
+     height: 80px;
+     border: 0;
+     padding: 0 40px;
+     background: #f4f9fc;
+     border-radius: 40px;
+     color: #647589;
+}
+ .subscribe-form form button {
+     position: absolute;
+     top: 8px;
+     right: 10px;
+     border-radius: 40px;
+     padding: 25px 44px;
+}
+.news-letter-area{
+    // background: url(../img/newsletter/news-letter-bg.jpg);
+    background-repeat: no-repeat;
+}

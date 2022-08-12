@@ -1,0 +1,116 @@
+/* 7. Team */
+ .team-box-2 {
+     padding: 30px;
+     background-color: rgb(255, 255, 255);
+     box-shadow: 0px 8px 16px 0px rgba(181, 179, 255, 0.1);
+     padding-bottom: 18px;
+}
+ .team-box-3 {
+     padding: 0;
+     box-shadow: none;
+     margin-bottom: 0;
+}
+ .team-content h3 {
+     margin-bottom: 17px;
+}
+ .team-content h6 {
+     color: #e12454;
+     text-transform: uppercase;
+     letter-spacing: 1px;
+}
+ .team-link {
+     position: absolute;
+     bottom: 25px;
+     height: 60px;
+     width: 60px;
+     display: inline-block;
+     border-radius: 50%;
+     background-color: rgb(143, 181, 105);
+     box-shadow: 0px 8px 16px 0px rgba(143, 181, 105, 0.3);
+     font-size: 26px;
+     font-weight: 600;
+     line-height: 60px;
+     color: #fff;
+     right: 51px;
+}
+ .team-link:hover {
+     background-color: rgb(225, 36, 84);
+     box-shadow: 0px 8px 16px 0px rgba(225, 36, 84, 0.2);
+     color: #fff;
+}
+ .team-box-2 .team-member-info h3 {
+     margin-bottom: 18px;
+}
+ .team-box-3 .team-member-info h3 {
+     font-size: 36px;
+}
+ .team-author-info span {
+     font-size: 12px;
+     font-weight: 500;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+     color: #e12454;
+     padding: 11px 20px;
+     display: inline-block;
+     background: #fff;
+}
+ .team-author-info h6 {
+     font-size: 18px;
+     color: #223645;
+     padding: 11px 20px;
+     background: #fff;
+}
+ .team-author-info {
+     position: absolute;
+     margin-top: -60px;
+     margin-left: 30px;
+     transition: .4s;
+     visibility: hidden;
+     opacity: 0;
+     right: 0;
+     width: 146%;
+     left: 0;
+     z-index: 99;
+     box-shadow: 0px 8px 16px 0px rgba(205, 190, 255, 0.2);
+}
+ .team-box:hover .team-author-info {
+     opacity: 1;
+     visibility: visible;
+}
+
+ .team-social-profile ul li {
+     display: inline-block;
+     margin: 0 9.5px;
+}
+ .team-social-profile ul li a {
+     font-size: 14px;
+     color: #a0aab1;
+}
+ .team-social-profile ul li a:hover {
+     color: #ce1b28;
+}
+.team_btn{
+    text-align: right;
+}
+
+ .team__area .slick-dots {
+     text-align: center;
+     margin-bottom: 30px;
+}
+ .team__area .slick-dots li {
+     display: inline-block;
+     cursor: pointer;
+     margin: 0 8px;
+}
+ .team__area .slick-dots li button {
+     text-indent: -111111111111px;
+     padding: 0;
+     width: 30px;
+     height: 4px;
+     border: 0;
+     background: #e0e9ff;
+     cursor: pointer;
+}
+ .team__area .slick-dots li.slick-active button {
+     background: #8fb569;
+}

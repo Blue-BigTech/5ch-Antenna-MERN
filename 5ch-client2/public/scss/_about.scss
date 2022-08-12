@@ -1,0 +1,186 @@
+/* 4. About */
+ .about-shape {
+     position: absolute;
+     top: 60px;
+     left: -60px;
+     z-index: -9;
+}
+ .about-front-img {
+     box-shadow: 0px 16px 32px 0px rgba(136, 136, 136, 0.2);
+}
+ .about-title h5 {
+     margin-bottom: 27px;
+}
+ .about-right-side {
+     padding-left: 23px;
+}
+ .author-ava {
+     margin-right: 30px;
+}
+ .author-desination h6 {
+     color: #e12454;
+     text-transform: uppercase;
+     letter-spacing: 1px;
+}
+ .author-desination h4 {
+     margin-bottom: 13px;
+}
+ .single-item .mv-icon {
+     margin-right: 30px;
+}
+ .mv-title h3 {
+     font-size: 24px;
+     margin-bottom: 20px;
+}
+ .mv-title p {
+     padding-right: 73px;
+}
+ .facalty-text p {
+     line-height: 26px;
+     padding-top: 25px;
+     padding-right: 25px;
+     padding-left: 25px;
+}
+ .about-text-list ul li {
+     margin-bottom: 20px;
+}
+ .about-text-list ul li i {
+     height: 40px;
+     width: 40px;
+     line-height: 38px;
+     text-align: center;
+     border-radius: 50%;
+     background: #f6f5ff;
+     padding-left: 3px;
+     margin-right: 20px;
+     transition: .4s;
+     display: inline-block;
+}
+ .about-text-list ul li:hover i {
+     background: #DF2855;
+     color: #fff;
+}
+ .about-text p {
+     padding-right: 46px;
+}
+ .mv-text p {
+     font-size: 20px;
+     color: #223645;
+     margin-bottom: 0;
+     padding-right: 27px;
+     padding-top: 5px;
+}
+ .mv-single-list {
+     padding: 30px 0;
+     border-top: 1px solid #dedeff;
+     border-bottom: 1px solid #dedeff;
+}
+ .mv-icon {
+     margin-right: 30px;
+}
+ .mv-right-img img {
+     padding: 10px;
+     background-color: #fff;
+     box-shadow: 0px 16px 32px 0px rgba(205, 203, 255, 0.4);
+     border-radius: 5px;
+}
+ .testi-quato-icon.about-icon-white {
+     float: right;
+     margin: 0;
+     margin-top: -49px;
+     margin-right: -70px;
+     position: relative;
+     z-index: 1;
+}
+ .medical-icon-brand {
+     display: inline-block;
+     height: 100px;
+     width: 100px;
+     text-align: center;
+     line-height: 100px;
+     border-radius: 50%;
+     background-color: rgb(255, 255, 255);
+     box-shadow: 0px 16px 32px 0px rgba(136, 136, 136, 0.2);
+     margin-right: 51px;
+     margin-top: 48px;
+     margin-left: 47px;
+     z-index: -9;
+}
+ .medical-icon-brand-2 {
+     position: absolute;
+     z-index: 9;
+     right: -90px;
+     top: 50%;
+     transform: translateY(-50%);
+}
+ .medical-icon-brand-3 {
+     right: -106px;
+     margin-top: 21px;
+}
+ .medical-icon-brand::before {
+     position: absolute;
+     content: "";
+     left: -28px;
+     right: 0;
+     bottom: 0;
+     top: -30px;
+     height: 156px;
+     width: 156px;
+     border: 2px dashed #e6e6e6;
+     border-radius: 50%;
+}
+ .medical-icon-brand::after {
+     position: absolute;
+     content: "";
+     left: -55px;
+     right: 0;
+     bottom: 0;
+     top: -58px;
+     height: 210px;
+     width: 210px;
+     border: 2px dashed #e6e6e6;
+     border-radius: 50%;
+}
+ .about-right-content {
+     padding-right: 50px;
+}
+.about_left{
+    position:relative;
+}
+.about-front-img img{
+    width: 100%;
+    height: 85%;
+}
+.appoinment-section{
+    // background: url(../img/bg/appointment.jpg);
+    background-repeat: no-repeat;
+}
+.text-nowrap-overflow{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.award-text{
+    color: red;
+    font-weight: bold;
+    left: 10%; 
+    top: 12%;
+    position: absolute;
+    font-size: 25px;
+    text-align: center;
+    width: 40px;
+}
+.award-img{
+    background: url('../img/123.png');
+    background-position: center;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+.new-blogs-header{
+    height: 50px;
+    background-image: linear-gradient(180deg, #223645, #5485ab);
+    display: flex;
+    align-items: center;
+}

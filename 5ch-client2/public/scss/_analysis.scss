@@ -1,0 +1,71 @@
+/* 15. Analysis */
+ .analysis-bg-icon {
+     position: absolute;
+     left: 30px;
+     top: 47px;
+}
+ .analysis-area .nav.nav-pills {
+     margin-top: -212px;
+}
+ .analysis-area .nav-item {
+     text-align: center;
+     margin-right: 30px;
+     width: 31.5%;
+}
+ .analysis-area .nav-item:last-child {
+     margin-right: 0;
+}
+ .analysis-area .nav-item a h6 {
+     text-transform: uppercase;
+     letter-spacing: 2px;
+     color: #fff;
+     margin: 0;
+     margin-top: 37px;
+}
+ .analysis-area .nav-item a.nav-link {
+     padding: 70px;
+     border-radius: 0;
+     position: relative;
+}
+ .analysis-area .nav-item a.nav-link::after {
+     position: absolute;
+     height: 20px;
+     width: 20px;
+     background: #e12454;
+     content: "";
+     left: 0;
+     right: 0;
+     margin: auto;
+     bottom: -10px;
+     transform: rotate(45deg);
+     opacity: 0;
+     visibility: hidden;
+}
+ .analysis-area .nav-item:nth-child(2) a.nav-link::after {
+     background: #8fb569;
+}
+ .analysis-area .nav-item:nth-child(3) a.nav-link::after {
+     background: #f4f9fc;
+}
+ .analysis-area .nav-item a.nav-link.active::after {
+     opacity: 1;
+     visibility: visible;
+}
+ .analysis-area ul li.nav-item .nav-link.active {
+     background: 0;
+}
+ .analysis-area ul li.nav-item:nth-child(1) a.nav-link {
+     background: #e12454;
+}
+ .analysis-area ul li.nav-item:nth-child(2) a.nav-link {
+     background: #8fb569;
+}
+ .analysis-area ul li.nav-item:nth-child(3) a.nav-link {
+     background: #f4f9fc;
+}
+ .analysis-area ul li.nav-item:nth-child(3) a.nav-link h6 {
+     color: #223645;
+}
+ .analysis-chart {
+     margin-top: 50px;
+}

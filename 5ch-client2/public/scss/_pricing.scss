@@ -1,0 +1,133 @@
+/* 9. Pricing */
+ .pricing-box {
+     padding: 60px;
+     background: #fff;
+}
+ .pricing-content h1 {
+     font-size: 40px;
+     margin-bottom: 15px;
+}
+ .pricing-content p {
+     margin-bottom: 23px;
+}
+ .pricing-menu .nav.nav-pills {
+     border: 2px solid #eae7ff;
+     border-radius: 40px;
+     background-color: #fff;
+}
+ .pricing-menu a.nav-link {
+     padding: 30px 50px;
+     line-height: 1;
+     border-radius: 0;
+     font-size: 14px;
+     color: #223645;
+     text-transform: uppercase;
+     letter-spacing: 1px;
+     font-weight: 500;
+}
+ .pricing-menu a.nav-link.active {
+     border-radius: 40px;
+     background: #e12454;
+     padding-left: 50px;
+     transform: scale(1.04);
+}
+ .price-box-flat {
+     background: #fff;
+}
+ .pricing-title h6 {
+     background: #1d2f3c;
+     padding: 30px 60px;
+     transition: .4s;
+}
+ .price-box-flat:hover .pricing-title h6 {
+     background: #e12454;
+     color:#ffff;
+}
+ .price-box-flat:hover .price-btn-2 a {
+     background: #8fb569;
+     color:#ffff;
+}
+ .price-content {
+     padding: 60px;
+     padding-right: 50px;
+     padding-bottom: 53px;
+     padding-top: 38px;
+}
+ .price-heading h1 span {
+     font-size: 20px;
+}
+ .price-heading h1 {
+     font-size: 70px;
+     margin-bottom: 42px;
+}
+ .pricing-list ul li {
+     margin-bottom: 30px;
+}
+ .pricing-list ul li:last-child {
+     margin: 0;
+}
+ .pricing-list ul li i {
+     color: #223645;
+     margin-right: 9px;
+}
+ .price-del {
+     color: #b9c1cb;
+}
+ li.price-del i {
+     color: #b9c1cb !important;
+}
+ .price-btn-2 a {
+     width: 100%;
+     color: #223645;
+     background-color: #e1e5ff;
+}
+ .pricing-area .pricing-nav {
+     padding: 0;
+     border-radius: 40px;
+     display: inline-block;
+     margin-top: 60px;
+     background: #344a5a;
+}
+ .pricing-area .pricing-nav .nav-tabs {
+     border: 0;
+}
+ .pricing-area nav.pricing-nav .nav-tabs .nav-link {
+     padding: 30px 50px;
+     border: 0;
+     color: #afb1d1;
+     font-weight: 500;
+     border-radius: 40px;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+     color: #fff;
+     transition: .7s;
+}
+ .pricing-area nav.pricing-nav .nav-item.nav-link.active {
+     color: #fff;
+     border-radius: 40px;
+     padding-right: 54px;
+     padding-left: 54px;
+     background-color: rgb(225, 36, 84);
+     box-shadow: 0px 8px 16px 0px rgba(225, 36, 84, 0.3);
+}
+.pricing-content h1 {
+    font-size: 40px !important;
+}
+.pricing-menu button.nav-link.active {
+    border-radius: 40px;
+    background: #e12454;
+    padding-left: 50px;
+    transform: scale(1.04);
+}
+.pricing-menu button.nav-link {
+    padding: 30px 50px;
+    line-height: 1;
+    border-radius: 0;
+    font-size: 14px;
+    color: #223645;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    border: none;
+    background: transparent;
+}

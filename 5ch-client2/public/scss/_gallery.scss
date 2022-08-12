@@ -1,0 +1,215 @@
+/* 25. Portfolio */
+ .portfolio-filter {
+     border-bottom: 2px solid #dde3ff;
+     display: inline-block;
+     padding: 0;
+}
+ .portfolio-filter button {
+     background: none;
+     padding: 25px 20px;
+     padding-top: 0;
+     border: 0;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+     font-weight: 500;
+     font-size: 13px;
+     margin: 0 2px;
+     color: #6f7881;
+     position: relative;
+}
+ .portfolio-filter button:hover,.portfolio-filter button.active{
+     position: relative;
+     color: #e12454;
+}
+ .portfolio-filter button::before {
+     content: '';
+     width: 0;
+     height: 2px;
+     position: absolute;
+     bottom: -2px;
+     left: 100%;
+     background: #e12454;
+     -webkit-transition: all 0.3s ease;
+     transition: all 0.3s ease;
+}
+ .portfolio-filter button.active::before, .portfolio-filter button:hover::before {
+     width: 100%;
+     left: 0;
+     -webkit-transition: width 0.3s ease;
+     transition: width 0.3s ease;
+}
+ .portfolio-wrapper {
+     position: relative;
+}
+ .portfolio-image {
+     position: relative;
+}
+ .portfolio-image::before {
+     background: #e12454;
+     content: "";
+     height: 100%;
+     left: 0;
+     opacity: 0;
+     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+     position: absolute;
+     top: 0;
+     -webkit-transition: all 0.3s ease 0s;
+     transition: all 0.3s ease 0s;
+     width: 100%;
+}
+ .portfolio-wrapper:hover .portfolio-image::before {
+     opacity: .8;
+     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+ .view-icon a {
+     color: #fff;
+     display: inline-block;
+     font-size: 20px;
+}
+ .view-icon {
+     text-align: center;
+     top: 20px;
+     opacity: 0;
+     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+     visibility: hidden;
+     z-index: 9;
+     -webkit-transition: .3s;
+     transition: .3s;
+     left: 30px;
+     position: absolute;
+}
+.view-icon button {
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    border: none;
+    background:transparent;
+}
+ .portfolio-wrapper:hover .view-icon {
+     opacity: 1;
+     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+     visibility: visible;
+     top: 30px;
+}
+ .portfolio-caption {
+     left: 0;
+     opacity: 0;
+     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+     padding: 30px;
+     position: absolute;
+     bottom: 5px;
+     -webkit-transition: all 0.3s ease 0s;
+     transition: all 0.3s ease 0s;
+     visibility: hidden;
+     right: 0;
+     transform: translateY(10px);
+}
+ .portfolio-wrapper:hover .portfolio-caption {
+     opacity: 1;
+     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+     visibility: visible;
+     transform: translateY(0px);
+}
+ .portfolio-caption h4 {
+     font-size: 20px;
+     letter-spacing: 2px;
+     margin-bottom: 0;
+     padding-bottom: 6px;
+     position: relative;
+     text-transform: uppercase;
+     color: #fff;
+     font-weight: 600;
+}
+ .portfolio-caption p {
+     text-transform: capitalize;
+     color: #fff;
+     margin: 0;
+}
+
+/* Gallery */
+ .h5gallery-content {
+     position: absolute;
+     top: 50%;
+     right: 0;
+     left: 0;
+     transform: translateY(-70%);
+     z-index: 1;
+     opacity: 0;
+     visibility: hidden;
+     transition: .4s;
+}
+ .h5gallery__wrapper:hover .h5gallery-content {
+     opacity: 1;
+     visibility: visible;
+     transition: .4s;
+     transform: translateY(-50%);
+}
+ .h5gallery__wrapper::before {
+     position: absolute;
+     content: "";
+     background-color: rgba(34, 54, 69, 0.89);
+     width: 100%;
+     height: 100%;
+     left: 0;
+     right: 0;
+     opacity: 0;
+     visibility: hidden;
+     transition: .4s;
+}
+ .h5gallery__wrapper:hover::before {
+     opacity: 1;
+     visibility: visible;
+     transition: .4s;
+}
+.h5gallery-content>button{
+     border: none;
+     background: transparent;
+}
+ .h5gallery-content>button>i {
+     font-size: 20px;
+     font-size: 40px;
+     color: #fff;
+     margin-bottom: 10px;
+     transition: .4s;
+}
+ .h5gallery-content>button>i:hover {
+     color: #8fb569;
+}
+ .h5gallery-content>h4 {
+     font-size: 22px;
+}
+ .h5gallery-content > span > a {
+     font-size: 13px;
+     color: #fff;
+     text-transform: uppercase;
+}
+ .h5gallery-content>span>a:hover {
+     color: #e12454;
+}
+ .gallery-button {
+     text-align: center;
+}
+ .gallery-filter>button {
+     position: relative;
+     font-size: 14px;
+     font-weight: 600;
+     color: #223645;
+     text-transform: capitalize;
+     border: 2px solid #e4e4e4;
+     background: transparent;
+     padding: 10px 18px;
+     line-height: 1;
+     margin: 0 5.5px;
+     font-family: "Poppins", sans-serif;
+     transition: .4s;
+}
+ .gallery-filter>button.active {
+     background: #e12454;
+     border: 2px solid transparent;
+     color: #fff;
+     transition: .4s;
+}
+.h5gallery-thumb img{
+    width: 100%;
+}
+/* Gallery end */
